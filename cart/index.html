@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Design By Vikash Dark</title>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="wrp">
+        <h1 class="title">Change Total Price According to Items</h1>
+        <div class="box-one">
+            <button onclick="minus()">-</button>
+            <input type="text" disabled value="1" placeholder="Qty" id="qty">
+            <button onclick="plus()">+</button>
+        </div>
+        <div class="box-under">
+            <h1><span>Your Price is Rs.</span> <input type="number" value="23" id="prc"></h1>
+            <h1>Your total price is Rs.<span id="tl"></span></h1>
+        </div>
+    </div>
+    
+
+<script src="js/script.js"></script>    
+</body>
+</html>

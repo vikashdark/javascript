@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 167, 167);
+}
+.wrp{
+    width: 40%;
+    padding: 40px 20px;
+    background-color: rgb(160, 205, 250);
+    border: 10px solid rgb(255, 120, 219);
+    text-align: center;
+    border-radius: 10px;
+}
+.wrp p{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.wrp button{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 8px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
